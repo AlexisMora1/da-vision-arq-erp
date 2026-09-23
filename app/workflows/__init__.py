@@ -1,0 +1,1 @@
+# Import workflows from their area package, e.g. `app.workflows.projects`.
