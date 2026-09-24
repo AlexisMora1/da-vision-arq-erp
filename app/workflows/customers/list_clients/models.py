@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-from app.domain.sales.models import Client
+from app.domain.customers.models import Client
 
 
 class ListClientsOutput(BaseModel):

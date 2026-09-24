@@ -1,8 +1,8 @@
 
 
-from app.domain.sales.ports import ClientRepositoryPort
+from app.domain.customers.ports import ClientRepositoryPort
+from app.workflows.customers.list_clients.models import ListClientsOutput
 from app.workflows.exceptions_handler import exceptions_handler
-from app.workflows.sales.list_clients.models import ListClientsOutput
 
 
 @exceptions_handler

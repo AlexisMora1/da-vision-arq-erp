@@ -1,6 +1,6 @@
-from app.domain.sales import ClientRepositoryPort, GetClientRequest, get_client
+from app.domain.customers import ClientRepositoryPort, GetClientRequest, get_client
+from app.workflows.customers.get_client.models import GetClientInput, GetClientOutput
 from app.workflows.exceptions_handler import exceptions_handler
-from app.workflows.sales.get_client.models import GetClientInput, GetClientOutput
 
 
 @exceptions_handler

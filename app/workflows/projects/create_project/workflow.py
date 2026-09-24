@@ -1,11 +1,11 @@
-from app.domain.projects import (
-    ProjectRepositoryPort,
-    create_project,
-)
-from app.domain.sales import (
+from app.domain.customers import (
     ClientRepositoryPort,
     GetClientRequest,
     get_client,
+)
+from app.domain.projects import (
+    ProjectRepositoryPort,
+    create_project,
 )
 from app.workflows.exceptions_handler import exceptions_handler
 from app.workflows.projects.create_project.models import (

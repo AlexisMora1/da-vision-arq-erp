@@ -1,5 +1,5 @@
+from app.domain.customers import ClientRepositoryPort, GetClientRequest, get_client
 from app.domain.projects import ProjectNotFoundError, ProjectRepositoryPort
-from app.domain.sales import ClientRepositoryPort, GetClientRequest, get_client
 from app.domain.storage import (
     FileRepositoryPort,
     GetDownloadFileUrlRequest,

@@ -1,14 +1,14 @@
-from app.workflows.sales.create_client import (
+from app.workflows.customers.create_client import (
     CreateClientInput,
     CreateClientOutput,
     create_client_workflow,
 )
-from app.workflows.sales.get_client import (
+from app.workflows.customers.get_client import (
     GetClientInput,
     GetClientOutput,
     get_client_workflow,
 )
-from app.workflows.sales.list_clients import (
+from app.workflows.customers.list_clients import (
     ListClientsOutput,
     list_clients_workflow,
 )

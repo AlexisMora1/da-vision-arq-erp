@@ -1,6 +1,6 @@
 from typing import Protocol
 
-from app.domain.sales.models import Client
+from app.domain.customers.models import Client
 
 
 class ClientRepositoryPort(Protocol):

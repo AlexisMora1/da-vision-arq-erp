@@ -2,9 +2,13 @@ from typing import Annotated
 
 from fastapi import APIRouter, Depends
 
-from app.dependencies import get_client_repository, get_file_repository, get_project_repository
+from app.dependencies import (
+    get_client_repository,
+    get_file_repository,
+    get_project_repository,
+)
+from app.domain.customers import ClientRepositoryPort
 from app.domain.projects import ProjectRepositoryPort
-from app.domain.sales import ClientRepositoryPort
 from app.domain.storage import FileRepositoryPort
 from app.workflows.projects import (
     CreateProjectInput,

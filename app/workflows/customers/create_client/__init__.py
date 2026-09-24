@@ -1,8 +1,8 @@
-from app.workflows.sales.create_client.models import (
+from app.workflows.customers.create_client.models import (
     CreateClientInput,
     CreateClientOutput,
 )
-from app.workflows.sales.create_client.workflow import create_client_workflow
+from app.workflows.customers.create_client.workflow import create_client_workflow
 
 __all__ = [
     "CreateClientInput",

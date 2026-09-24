@@ -3,7 +3,7 @@ from pathlib import Path
 
 import aiofiles
 
-from app.domain.sales import Client, ClientRepositoryPort
+from app.domain.customers import Client, ClientRepositoryPort
 
 
 class JSONClientRepositoryAdapter(ClientRepositoryPort):

@@ -3,8 +3,8 @@ from typing import Annotated
 from fastapi import APIRouter, Depends
 
 from app.dependencies import get_client_repository
-from app.domain.sales import ClientRepositoryPort
-from app.workflows.sales import (
+from app.domain.customers import ClientRepositoryPort
+from app.workflows.customers import (
     CreateClientInput,
     CreateClientOutput,
     GetClientInput,

@@ -1,14 +1,14 @@
 
-from app.domain.sales import (
+from app.domain.customers import (
     ClientRepositoryPort,
     CreateClientRequest,
     create_client,
 )
-from app.workflows.exceptions_handler import exceptions_handler
-from app.workflows.sales.create_client.models import (
+from app.workflows.customers.create_client.models import (
     CreateClientInput,
     CreateClientOutput,
 )
+from app.workflows.exceptions_handler import exceptions_handler
 
 
 @exceptions_handler

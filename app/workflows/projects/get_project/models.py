@@ -2,7 +2,7 @@ from datetime import date
 
 from pydantic import BaseModel
 
-from app.domain.sales import Client
+from app.domain.customers import Client
 
 
 class ProjectDetails(BaseModel):

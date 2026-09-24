@@ -1,6 +1,6 @@
-from app.domain.sales.errors import ClientAlreadyExistsError, ClientNotFoundError
-from app.domain.sales.models import Client, CreateClientRequest, GetClientRequest
-from app.domain.sales.ports import ClientRepositoryPort
+from app.domain.customers.errors import ClientAlreadyExistsError, ClientNotFoundError
+from app.domain.customers.models import Client, CreateClientRequest, GetClientRequest
+from app.domain.customers.ports import ClientRepositoryPort
 
 
 async def create_client(

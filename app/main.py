@@ -3,8 +3,8 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 
 from app.routes.catalog.route import router as catalog_router
+from app.routes.customers.route import router as sales_router
 from app.routes.projects.route import router as projects_router
-from app.routes.sales.route import router as sales_router
 from app.routes.storage.route import router as storage_router
 
 

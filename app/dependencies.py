@@ -1,8 +1,8 @@
 from pathlib import Path
 
 from app.adapters.catalog import JSONProductsRepositoryAdapter
+from app.adapters.customers import JSONClientRepositoryAdapter
 from app.adapters.projects import JSONProjectRepositoryAdapter
-from app.adapters.sales import JSONClientRepositoryAdapter
 from app.adapters.storage import LocalFileRepositoryAdapter
 
 
