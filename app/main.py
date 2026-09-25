@@ -6,6 +6,7 @@ from app.routes.catalog.route import router as catalog_router
 from app.routes.customers.route import router as sales_router
 from app.routes.projects.route import router as projects_router
 from app.routes.storage.route import router as storage_router
+from app.routes.suppliers.route import router as suppliers_router
 
 
 @asynccontextmanager
@@ -18,4 +19,5 @@ app.include_router(projects_router)
 app.include_router(sales_router)
 app.include_router(storage_router)
 app.include_router(catalog_router)
+app.include_router(suppliers_router)
 
